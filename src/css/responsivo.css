@@ -1,0 +1,184 @@
+@media (max-width: 1400px) {
+
+    .content {
+        display: none;
+    }
+
+    .espaco-vazio {
+        display: none;
+    }
+
+    .background{
+
+        width: 100%;
+        max-width: 80;
+        height: auto;
+    }
+    
+    .cabeçalho-link{
+        display: flex;
+        font-size: 170%;
+        gap: 10rem;
+    }
+
+    .container-card-1{
+        flex-wrap: wrap;
+        gap: 9rem;
+        padding-top: 9rem;
+    }
+
+    .cards img{
+        width: 410px;
+        height: auto;
+    }
+
+    .meio {
+        max-width: 50%;
+    }
+
+    .background .logo {
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+
+
+@media (max-width: 1000px){
+
+    .cabeçalho-link{
+        display: flex;
+        font-size: 170%;
+        gap: 5rem;
+    }
+
+}
+
+
+
+@media (max-width: 500px) {
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        font-size: 95%;
+    }
+
+    .logo h5{
+        font-size: 2px;
+    }
+
+    .icon span {
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding: 20px;
+    }
+
+    .cabeçalho-link{
+        display: flex;
+        font-size: 100%;
+        gap: 1rem;
+    }
+    
+    .cabeçalho-link a{
+        color: #111;
+        font-weight: 700;
+        transition: all 0.3s ease;
+    }
+    
+    .cabeçalho-link a:hover{
+        color: #c8815f;
+    }
+    
+    .icon span {
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    .background{
+        background-position: center right;
+        width: 100%;
+        max-width: 100%;
+        height: 350px;
+    }
+
+    .Meio {
+        margin-top: 40px;
+        padding: 1rem 0 0 2rem;
+        line-height: 2rem;
+        text-shadow:
+         -0.7px -0.7px 0 rgb(231, 231, 231),
+         0.7px -0.7px 0 rgb(231, 231, 231),
+         0.7px 0.7px 0 rgb(231, 231, 231),
+         -0.7px 0.7px 0 rgb(231, 231, 231);
+        color: rgb(0, 0, 0);
+
+    }
+    
+    .Meio h1{
+        font-size: 1.7rem;
+    }
+    
+
+    section h1{
+        align-items: center;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .content {
+        display: none;
+    }
+
+    .espaco-vazio {
+        display: none;
+    }
+
+    .container-card-1{
+        flex-wrap: wrap;
+        gap: 2rem;
+        padding-top: 1rem;
+    }
+
+    .cards img{
+        width: 340px;
+        height: auto;
+    }   
+    
+    .cta {
+        height: 60vh;
+        width: 100%;
+        background-position: center right;
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .text-cta h6{
+        font-size: 30px;
+    }
+
+    .text-cta h4{
+        font-size: 2rem;
+        font-weight: 500px;
+        margin-bottom: 50px;
+    }
+    
+    
+    .text-cta{
+        padding-left: 1rem;
+    }
+    
+
+    .roupa img{
+        width: 150px;
+    }
+
+    .contato{
+        gap: 4rem;
+        justify-content: space-around;
+        padding: 50px 100px;
+        margin-top: 10rem;
+    }
+}
